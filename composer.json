@@ -1,0 +1,26 @@
+{
+    "name": "grocerystore/preordermanagement",
+    "description": "This package help to take pre order for a grocery shop.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GroceryStore\\PreOrderManagement\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Md Mamunur Rashid",
+            "email": "mamunur6286@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GroceryStore\\PreOrderManagement\\PreOrderServiceProvider",
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
