@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Cache;
 
 class RequestRateLimit implements Rule
 {
-    protected $maxRequests = 1;
+    protected $maxRequests = 10;
     protected $timePeriod = 1;
     protected $cacheKey;
 
