@@ -48,10 +48,18 @@ Next, we need to add our new Service Provider in our config/app.php inside of th
 
 ],
 ```
+#### 5. Publishing Migrations and Configurations
+After installing the Laravel Grocery Store Pre-Order Package, you need to publish its migration and configuration files to customize them as needed.
+```
+// for publish config
+php artisan vendor:publish --tag=preorder-config
 
-Awesome! Our service provider is loaded and our package is ready to go! But we don't have any functionality yet... Let's tackle that by adding a Controller for our Project.
+for publish mygration
+php artisan vendor:publish --tag=preorder-migrations
 
-#### 5. Basic Usease
+```
+
+#### 6. Basic Usease
 this package give you some route to use your frontend app the routes is 
 ```
 api/v1/grocery-store/pre-orders
